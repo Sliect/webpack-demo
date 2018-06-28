@@ -24,10 +24,10 @@
 ```
 
 ## 安利环节(2018.6.28更新)
-```
-  [关于webpack的一次演讲(需翻墙)](https://www.youtube.com/watch?v=ivQ7HrnBJe8)
-  掘金小册《使用webpack定制前端开发环境》 作者teabyii
-```
+> [关于webpack的一次演讲(需翻墙)](https://www.youtube.com/watch?v=ivQ7HrnBJe8)
+>
+> [掘金小册《使用webpack定制前端开发环境》](https://juejin.im/book/5a6abad5518825733c144469)
+>
 
 ## 结语
 > 期待webpack5的零配置!
