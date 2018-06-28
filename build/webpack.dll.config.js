@@ -9,7 +9,7 @@ module.exports = {
     vendor: vendors
   },
   output: {
-    path: path.join(__dirname, 'static'),
+    path: path.join(__dirname, '../static'),
     filename: '[name].dll.js',
     library: '[name]_[hash]',
   },

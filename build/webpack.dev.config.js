@@ -19,7 +19,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       manifest: path.join(__dirname, 'vendor-manifest.json')
     }),
     new AddAssetHtmlPlugin({
-      filepath: path.resolve(__dirname, './static/*.dll.js'),
+      filepath: path.resolve(__dirname, '../static/*.dll.js'),
     })
   ]
 })

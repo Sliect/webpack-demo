@@ -9,11 +9,11 @@ const resolve = function (dirname) {
 
 const config = {
   entry: {
-    app: resolve('src/app/index.js')
+    app: resolve('../src/app/index.js')
   },
 
   output: {
-    path: resolve('build'),
+    path: resolve('../dist'),
     filename: '[name].js'
   },
 
