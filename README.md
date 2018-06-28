@@ -17,12 +17,15 @@
   npm start
 ```
 
-### 使用webpack-blunder-analyzer查看打包详情
-### 分离第三方库, 提高webpack构建速度
+## 使用简介
+```
+  使用webpack-blunder-analyzer查看打包详情
+  分离第三方库, 提高webpack构建速度
+```
 
 ## 安利环节(2018.6.28更新)
 ```
-  https://www.youtube.com/watch?v=ivQ7HrnBJe8 关于webpack的一次演讲(需翻墙)
+  [关于webpack的一次演讲(需翻墙)](https://www.youtube.com/watch?v=ivQ7HrnBJe8)
   掘金小册《使用webpack定制前端开发环境》 作者teabyii
 ```
 
