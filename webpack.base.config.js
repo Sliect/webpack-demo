@@ -1,7 +1,7 @@
 const path = require('path')
+const chalk = require('chalk')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
-const webpack = require('webpack')
+const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 
 const resolve = function (dirname) {
   return path.join(__dirname, dirname)
@@ -21,12 +21,8 @@ const config = {
     new HtmlWebpackPlugin({
       title: 'webpack demo'
     }),
-    new webpack.DllReferencePlugin({
-      context: path.join(__dirname),
-      manifest: path.join(__dirname, 'vendor-manifest.json')
-    }),
-    new AddAssetHtmlPlugin({
-      filepath: path.resolve(__dirname, './static/*.dll.js'),
+    new ProgressBarPlugin({
+      format: '  build [:bar] ' + chalk.green.bold(':percent') + ' (:elapsed seconds)'
     })
   ],
 

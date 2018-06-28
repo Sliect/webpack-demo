@@ -4,7 +4,7 @@ const webpack = require('webpack')
 const vendors = ['vue', 'element-ui']
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: {
     vendor: vendors
   },
