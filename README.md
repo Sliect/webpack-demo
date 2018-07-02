@@ -19,6 +19,7 @@
 
 ## 使用简介
 ```
+  examples下包含一些插件使用, 配合npmjs 食用效果更佳
   使用webpack-blunder-analyzer查看打包详情
   分离第三方库, 提高webpack构建速度
 ```
