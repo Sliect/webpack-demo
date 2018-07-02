@@ -1,6 +1,7 @@
 const merge = require('webpack-merge')
 const path = require('path')
 const baseWebpackConfig = require('./webpack.base.config')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 // const CompressionWebpackPlugin = require('compression-webpack-plugin')
 
@@ -9,6 +10,9 @@ const webpackConfig = merge(baseWebpackConfig, {
   mode: "production",
 
   plugins: [
+    new CleanWebpackPlugin(["dist"], {
+      root: path.resolve(__dirname, '../')
+    }),
     new BundleAnalyzerPlugin(),
     // 开启gzip压缩
     // new CompressionWebpackPlugin({
