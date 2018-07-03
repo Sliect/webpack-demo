@@ -1,0 +1,5 @@
+console.log('注意浏览器环境下和nodejs环境下输出值的不同')
+console.log('---------------------------------')
+console.log(process.env.NODE_ENV)
+console.log(process.env.FAVORITE_FRUIT)
+console.log('---------------------------------')
