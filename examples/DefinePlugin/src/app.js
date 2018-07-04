@@ -1,0 +1,6 @@
+console.log('PRODUCTION', typeof PRODUCTION, PRODUCTION)
+console.log('VERSION', VERSION)
+console.log('BROWSER_SUPPORTS_HTML5', typeof BROWSER_SUPPORTS_HTML5, BROWSER_SUPPORTS_HTML5)
+console.log('TWO', TWO)
+console.log('AGE_OBJECT', AGE_OBJECT)
+console.log('THREE', THREE)

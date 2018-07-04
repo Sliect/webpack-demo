@@ -3,7 +3,8 @@
 ## 使用说明
 
 ```
-  进入当前目录
+  进入当前目录安装依赖
+  npm i
   执行命令
   npm start
   npm run build
