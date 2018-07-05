@@ -15,7 +15,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DllReferencePlugin({
-      context: path.join(__dirname),
+      // context: path.join(__dirname),
       manifest: path.join(__dirname, 'vendor-manifest.json')
     }),
     new AddAssetHtmlPlugin({
